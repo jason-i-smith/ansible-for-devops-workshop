@@ -14,7 +14,7 @@
 
 - name: Copy httpd.conf
   template:
-    src: templates/httpd.conf/j2
+    src: templates/httpd.conf.j2
     dest: /etc/httpd/conf/httpd.conf
   notify: restart-apache-service
 
