@@ -3,5 +3,5 @@
   hosts: sitea
   become: yes
 
-  role:
+  roles:
     - apache-simple
